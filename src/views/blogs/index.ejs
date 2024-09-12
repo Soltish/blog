@@ -1,0 +1,7 @@
+<% articles.forEach(article => { %>
+<div>
+  <a href="/blogs/<%= article.slug %>"><%= article.title %></a>
+  <p><%= article.description %></p>
+  <p><%= article.created_at %></p>
+</div>
+<% }) %>

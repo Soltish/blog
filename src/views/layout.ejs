@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <meta name="description" content="<%= description %>" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="/">Home</ha>
+
+        <a href="/blogs">Blog</a>
+      </nav>
+      <h1><%= title %></h1>
+      <p><%= description %></p>
+    </header>
+    <main><%- body %></main>
+  </body>
+</html>
